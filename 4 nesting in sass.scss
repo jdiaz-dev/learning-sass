@@ -1,0 +1,37 @@
+
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo:#ccc;
+$color-letra:red;
+$color-secundario:rgb(148, 11, 11);
+
+body{
+    background-color: $color-fondo;
+}
+h1{
+    font-family: $fuente-tipica;
+    color:$color-letra;
+}
+p{
+    color:$color-secundario;
+}
+
+.box{
+    width:500px;
+    margin:0 auto;
+    border:2px solid black;
+    text-align: center;
+
+    h1{
+        color:blue;
+    }
+    p{
+        color:green;
+    }
+    .info{
+        font-size:14px;
+        .autor{
+            font-size:27px;
+            color:orange;
+        }
+    }
+}

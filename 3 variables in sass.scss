@@ -1,0 +1,19 @@
+
+/* variables */
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo:#ccc;
+$color-letra:red;
+$color-secundario:rgb(148, 11, 11);
+
+body{
+
+    //utilizando la variable color de fondo para aplicar color de fondo
+    background-color: $color-fondo;
+}
+h1{
+    font-family: $fuente-tipica;
+    color:$color-letra;
+}
+p{
+    color:$color-secundario;
+}

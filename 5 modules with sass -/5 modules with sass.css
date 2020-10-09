@@ -1,0 +1,38 @@
+body {
+  background-color: #ccc;
+}
+
+h1 {
+  font-family: sans-serif, Helvetica, Arial;
+  color: red;
+}
+
+p {
+  color: #940b0b;
+}
+
+.box {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid black;
+  text-align: center;
+}
+.box h1 {
+  color: blue;
+}
+.box p {
+  color: green;
+}
+.box .info {
+  font-size: 14px;
+}
+.box .info .autor {
+  font-size: 27px;
+  color: orange;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=5%20modules%20with%20sass.css.map */
