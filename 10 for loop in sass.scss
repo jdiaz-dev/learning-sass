@@ -1,0 +1,11 @@
+$counter: 1;
+
+@for $counter from 1 through 8 {
+                             //using contador variable in nth-child()
+    .list-two ul li:nth-child(#{$counter}){
+        font-size: $counter * 4px;
+        color:red;
+        font-weight:bold;
+        
+    }
+}

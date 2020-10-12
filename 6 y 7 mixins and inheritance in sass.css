@@ -1,0 +1,66 @@
+body {
+  background-color: #ccc;
+}
+
+h1 {
+  font-family: sans-serif, Helvetica, Arial;
+  color: red;
+}
+
+p {
+  color: #940b0b;
+}
+
+.box {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid black;
+  text-align: center;
+}
+.box h1 {
+  color: blue;
+}
+.box p {
+  color: green;
+}
+.box .info {
+  font-size: 14px;
+}
+.box .info .autor {
+  font-size: 27px;
+  color: orange;
+}
+
+/* video 6 : mixin */
+.list-one {
+  border: 5px solid red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.list-two {
+  border: 5px solid green;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px blue;
+}
+
+/* video 7 : herencia */
+.alert-scared, .alert-danger, .alert {
+  border: 2px solid black;
+  width: 80%;
+  margin: 0 auto;
+  color: brown;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.alert-danger {
+  color: blue;
+}
+
+.alert-scared {
+  color: purple;
+}
+
+/*# sourceMappingURL=6%20y%207%20mixins%20and%20inheritance%20in%20sass.css.map */

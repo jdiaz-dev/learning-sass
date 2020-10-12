@@ -1,0 +1,10 @@
+$widthScreen: 1367px;
+$otherMeasure: 1000px;
+
+h1{
+    font-size: 20px + 10px - 3px; //operation
+}
+.box{
+    border: 2px solid red;
+    width: $otherMeasure / $widthScreen * 100%; //result is in percentaje
+}

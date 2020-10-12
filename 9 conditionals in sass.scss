@@ -1,0 +1,26 @@
+$color-fondo: #ccc;
+
+h1{
+    color:$color-fondo;
+}
+
+$color-fondo: #ccc; //changing font color
+
+//conditionals - if
+h1{
+    @if $color-fondo != #ccc {
+        color: blue;
+    } @else if $color-fondo == red {
+        color: gold;
+    } @else {
+        color: brown;
+    }
+}
+
+/* IMPORTANTE: las condiciones y bucles no es tan necesario en css */
+
+//for
+
+//each
+
+//while

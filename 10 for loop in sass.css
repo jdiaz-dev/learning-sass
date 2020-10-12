@@ -1,0 +1,49 @@
+.list-two ul li:nth-child(1) {
+  font-size: 4px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-two ul li:nth-child(2) {
+  font-size: 8px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-two ul li:nth-child(3) {
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-two ul li:nth-child(4) {
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-two ul li:nth-child(5) {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-two ul li:nth-child(6) {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-two ul li:nth-child(7) {
+  font-size: 28px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-two ul li:nth-child(8) {
+  font-size: 32px;
+  color: red;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=10%20for%20loop%20in%20sass.css.map */
